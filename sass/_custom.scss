@@ -1,0 +1,214 @@
+body{
+  font-family: $body-font;
+  font-size: 0;
+
+}
+
+hr{
+  border-color: #222;
+}
+
+// navbar
+
+.navbar{
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0;
+  font-size: 14px;
+
+}
+
+li .fa{
+  font-size: 18px;
+}
+
+
+// hero
+
+  .showcase{
+    background: url(../img/hero_img.jpeg) no-repeat 0 -300px;
+    height: 100vh;
+    width: 100%;
+    margin:0;
+    top:0;
+    display: table;
+
+    .call-out{
+      border: 4px solid white;
+      max-width: 600px;
+      margin: 0 auto;
+      margin-top: 350px;
+
+
+      .call-out-text{
+        margin:0 auto;
+        text-align: center;
+
+          h1{
+            font-size: 75px;
+            color: #fff;
+            text-align: center;
+            margin: 0 auto;
+        }
+      }
+  }
+}
+
+//story
+
+.story{
+  background-color: #e1d7be;
+  padding-bottom: 50px;
+}
+
+#our_story h1{
+  color: #222;
+
+}
+
+#story_text p{
+  text-align: left;
+  font-size: 16px;
+  padding-right: 20px;
+  font-weight: lighter;
+
+}
+
+#story_img img{
+  float: right;
+}
+
+// menu
+
+.menu{
+  background-color: #222;
+  border-top: 3px solid #222;
+  border-left: 3px solid #222;
+  border-right: 3px solid #222;
+
+
+}
+
+#menu h1{
+  padding-top: 20px;
+  color: #FFF;
+  text-align: center;
+
+}
+
+
+ul.menu_items{
+list-style-type: none;
+margin-right: 35px;
+padding-bottom: 25px;
+text-align: center;
+font-size: 0;
+
+
+
+  li{
+    display: inline-block;
+    height: 225px;
+    width: 225px;
+    margin: 0;
+    position: relative;
+
+  }
+}
+
+span.text-content{
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  display: table;
+  height: 225px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 225px;
+  opacity: 0;
+  transition: opacity 500ms;
+
+
+    span{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+    }
+}
+ul.menu_items li:hover span.text-content {
+    opacity: 1;
+}
+
+
+// image caption section
+
+.secondary-showcase{
+  background: url(../img/coffee.jpg) no-repeat;
+  height: 50vh;
+  width: 100%;
+  margin:0;
+  top:0;
+  display: table;
+
+
+    .secondary-call-out{
+      border: 4px solid white;
+      max-width: 800px;
+      margin: 0 auto;
+      margin-top: 75px;
+
+        .secondary-call-out-text{
+          margin:0 auto;
+          text-align: center;
+
+            h1{
+              font-size: 60px;
+              color: #fff;
+              text-align: center;
+              margin: 0 auto;
+              padding-top: 5px;
+              padding-bottom: 5px;
+            }
+        }
+    }
+
+}
+
+
+.footer{
+  background-color: #222;
+  width: 100%;
+  height: 50vh;
+
+    .newsletter h1{
+      color:#fff;
+      font-size: 20px;
+      margin-top: 50px;
+
+    }
+
+    .hours h1{
+      color:#fff;
+      font-size: 20px;
+      margin-top: 50px;
+      margin-left: 100px;
+    }
+      ul{
+        list-style-type:none;
+        margin-left: 60px;
+       li{
+        color: #fff;
+        font-size: 18px;
+
+      }
+    }
+  p{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 100px;
+    }
+
+}
